@@ -1,6 +1,8 @@
 name: Vuepress Build
 
-on: [push]
+push:
+    branches:
+    - master
 
 jobs:
   build:
@@ -27,5 +29,5 @@ jobs:
           git config --global user.name 'oliversiket'
           git config --global user.email 'oliversiket@users.noreply.github.com'
           git add .
-          git commit -m "Build Successful"
+          git commit -m "Built Website Assets"
           git push origin master
