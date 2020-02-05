@@ -21,3 +21,8 @@ jobs:
 
       - name: Vuepress Build
         run: yarn build
+
+      - name: Push Changes
+        run: |
+          git commit -m "Build Successful"
+          git push origin master
