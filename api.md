@@ -44,7 +44,7 @@ In Xavier head to "Your Settings" and under the API tab generate your token.
 ![Generate token](./images/api-token.png)
 
 ::: warning
-Store the token securely and do not share it with anyone else! Never Ever in your life!
+Store the token securely and do not share it with anyone else!
 :::
 
 For example, to use your token in <a href="https://www.getpostman.com/downloads/">Postman</a>, select _bearer token_ as your authentication method and copy your given token into the correct field. See below:
