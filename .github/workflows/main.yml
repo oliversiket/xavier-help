@@ -1,7 +1,7 @@
 name: Vuepress Build
 
 push:
-    branches:
+  branches:
     - master
 
 jobs:
