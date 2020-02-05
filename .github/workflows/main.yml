@@ -24,5 +24,6 @@ jobs:
 
       - name: Push Changes
         run: |
+          git add .
           git commit -m "Build Successful"
           git push origin master
